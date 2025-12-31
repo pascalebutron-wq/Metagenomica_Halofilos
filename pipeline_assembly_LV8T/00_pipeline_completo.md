@@ -1,6 +1,6 @@
 # Pipeline completo (LV8T)
 
-## 1) Trimming (Trim Galore)
+##Trimming (Trim Galore)
 nohup trim_galore --paired --quality 30 --stringency 5 --fastqc --illumina \
   LV8Hv_CKDN240014724-1A_HKN7JDSXC_L3_1.fq.gz \
   LV8Hv_CKDN240014724-1A_HKN7JDSXC_L3_2.fq.gz \
