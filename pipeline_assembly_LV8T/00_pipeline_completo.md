@@ -49,6 +49,7 @@ kaiju2table \
   kaiju_output.txt
 
 #Descarga de genomas (NCBI datasets) + Arbolito
+
 contador=4
 for zipfile in ncbi_datasethalo*.zip; do
   carpeta_destino="/datos2/ecogenomicalab/raw_data/HalomonasLV8/Genomas/Genoma_$contador"
